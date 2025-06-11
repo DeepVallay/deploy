@@ -1,6 +1,5 @@
 version: '3'
 services:
   nginx:
-    image: nginx
-    ports:
-      -"8080:80"
+    image: deepvallay/docker-cicd:202506111311
+    ports: -"8080:80"
